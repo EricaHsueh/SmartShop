@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="eZJ-6i-Ehf">
+                                <rect key="frame" x="20" y="124" width="374" height="421"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yhm-6F-xWQ">
+                                <rect key="frame" x="84.000000000000014" y="535" width="247.33333333333337" height="65.666666666666629"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="SmartShop">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="48" name="Avenir-Heavy"/>
+                                            <font key="NSOriginalFont" size="48" name="Avenir-Heavy"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="0.99991267919540405" green="1" blue="0.99988144636154175" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5917655782391017" green="0.76613610982894897" blue="0.40081208104272481" alpha="0.91256470479999996" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eZJ-6i-Ehf" secondAttribute="bottom" constant="191" id="4qQ-cR-2MS"/>
+                            <constraint firstItem="eZJ-6i-Ehf" firstAttribute="centerX" secondItem="Yhm-6F-xWQ" secondAttribute="centerX" id="EUV-3j-ZW5"/>
+                            <constraint firstItem="eZJ-6i-Ehf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="KCu-cY-p0O"/>
+                            <constraint firstItem="Yhm-6F-xWQ" firstAttribute="top" secondItem="eZJ-6i-Ehf" secondAttribute="bottom" constant="-10" id="RQY-Ye-xGA"/>
+                            <constraint firstItem="eZJ-6i-Ehf" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="ppG-hZ-gkz"/>
+                            <constraint firstItem="eZJ-6i-Ehf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="104" id="xLF-BI-AKI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch" width="1064" height="1068"/>
+    </resources>
+</document>
